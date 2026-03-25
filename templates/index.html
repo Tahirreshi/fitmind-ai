@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FitMind AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+    <h1>💪 FitMind AI</h1>
+    <p>Your Personal AI Health Coach</p>
+
+    <form action="/analyze" method="POST" class="form">
+
+    <input type="number" name="steps" placeholder="Steps (e.g. 8000)" required>
+
+    <input type="number" step="0.1" name="sleep" placeholder="Sleep Hours (e.g. 7.5)" required>
+
+    <input type="number" name="heart" placeholder="Heart Rate (e.g. 75)" required>
+
+    <input type="number" name="stress" placeholder="Stress (1-10)" required>
+
+    <button type="submit">🚀 Analyze My Health</button>
+
+</form>
+</div>
+
+</body>
+</html>
